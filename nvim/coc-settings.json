@@ -1,0 +1,14 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": ["reason", "ocaml"],
+  "languageserver": {
+     "ocaml": {
+       "command": "/home/an/.nvm/versions/node/v11.6.0/bin/ocaml-language-server",
+       "args": ["--stdio"],
+       "filetypes": ["ocaml"]
+     },
+     "reason": {
+      "command": "/home/an/code/reason-language-server.exe",
+      "filetypes": ["reason"]
+     }
+  }
+}
